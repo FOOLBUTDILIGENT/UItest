@@ -1,11 +1,9 @@
 package cn.itcast.uitest;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         item1.put("touxiang",R.drawable.monkey);
         item1.put("name","monkey");
         data.add(item1);
-        Map<String,Object> item2 = new HashMap<String, Object>();
+          Map<String,Object> item2 = new HashMap<String, Object>();
         item2.put("touxiang",R.drawable.dog);
         item2.put("name","dog");
         data.add(item2);
